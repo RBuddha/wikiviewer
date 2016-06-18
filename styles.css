@@ -1,6 +1,7 @@
 
 input{
     width: 10em;
+    padding-bottom: 10px;
 }
 .container{
     margin-top: 7em;
@@ -20,4 +21,7 @@ ul{
 }
 .alert{
     color: blue;
+}
+ul {
+    margin-top: 15px;
 }

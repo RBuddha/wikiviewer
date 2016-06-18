@@ -50,7 +50,7 @@ $(document).ready(function(){
                    
                     
                 }else if($('#french').is(':checked')){
-                    $('#error').append('<p class="alert text-center"> rien de trouvé </p>');
+                    $('#error').append('<p class="alert text-center"> rien de trouvé: "' + value +'"</p>');
                     
                 }
             }
