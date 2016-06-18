@@ -18,6 +18,6 @@ ul{
 .radio-inline {
     padding: 20px;
 }
-/*#french{*/
-/*    padding: 5px;*/
-/*}*/
+.alert{
+    color: blue;
+}
