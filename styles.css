@@ -1,0 +1,23 @@
+
+input{
+    width: 10em;
+}
+.container{
+    margin-top: 7em;
+}
+#search-button{
+    padding: 5px;
+}
+#random{
+    padding: 5px;
+}
+
+ul{
+    list-style-type: none;
+}
+.radio-inline {
+    padding: 20px;
+}
+/*#french{*/
+/*    padding: 5px;*/
+/*}*/

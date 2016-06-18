@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>wiki test</title>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://bootswatch.com/journal/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+
+<body>
+<div class='container'>
+            <div class='row'>
+                <div class="col-lg-4"></div>
+                 <div class="col-lg-4 text-center">
+                      <h1 >wikipedia</h1>
+                      
+<div class="text-center">
+<label class="radio-inline">
+  <input type="radio" name="langChoice" id="english" value="en" required ><img src="http://i64.tinypic.com/2cptds8.jpg" alt="english"/>
+</label>
+<label class="radio-inline">
+  <input type="radio" name="langChoice" id="french" value="fr" required checked> <img src="http://i67.tinypic.com/35bdwdz.jpg"/>
+</label>
+</div>
+
+                          <div class="btn-group">
+                            <input  id="searchbar"  />
+                            <!--<span id="search-clear" class="glyphicon glyphicon-remove-circle"></span>-->
+                         </div>
+                          <div class="btn-group">
+                              <span><i id='search' class="fa fa-search" aria-hidden="true"></i></span> 
+                              <span><i id='random' class="fa fa-random" aria-hidden="true"></i></span>
+                         </div>
+                 </div>  
+                <div class="col-lg-4"></div>
+            </div>
+        <div class='row'>
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <span id="error"></span>
+                <ul id="results" class="list-group text-left"></ul>
+               
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://use.fontawesome.com/de00c13796.js"></script>
+<script type="text/javascript" src="search.js"></script>
+</body>
+</html>
